@@ -6,11 +6,8 @@ import StreetView from './components/StreetView';
 class App extends Component {
   render() {
     return (
-      <div className="App">   
-        <div className="container">
-          <h1>GuessRU</h1>         
-            <StreetView/>
-        </div>
+      <div className="App">     
+        <StreetView/>
       </div>
     );
   }
