@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import 'dotenv/config';
+
+const GOOGLE_MAPS_API_KEY = process.env.GOOGLE_MAPS_API_KEY;
 
 class Panorama extends Component {
   constructor(props) {
@@ -30,7 +33,7 @@ class Panorama extends Component {
     if (!window.google) {
       var s = document.createElement('script');
       s.type = 'text/javascript';
-      s.src = `https://maps.google.com/maps/api/js?key=AIzaSyDgZXNZnlgCvEJ2-td1cLhaHptPowenPYg`;
+      s.src = `https://maps.google.com/maps/api/js?key=${GOOGLE_MAPS_API_KEY}`;
       var x = document.getElementsByTagName('script')[0];
       x.parentNode.insertBefore(s, x);
       // Below is important. 

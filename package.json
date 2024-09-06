@@ -4,9 +4,11 @@
   "homepage": "https://andrewh717.github.io/WhereRU",
   "private": true,
   "dependencies": {
+    "dotenv": "^16.4.5",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "save": "^2.9.0"
   },
   "scripts": {
     "predeploy": "npm run build",
