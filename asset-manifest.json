@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/WhereRU/static/css/main.5e2b9575.css",
+    "main.js": "/WhereRU/static/js/main.f16c75ac.js",
+    "index.html": "/WhereRU/index.html",
+    "main.5e2b9575.css.map": "/WhereRU/static/css/main.5e2b9575.css.map",
+    "main.f16c75ac.js.map": "/WhereRU/static/js/main.f16c75ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e2b9575.css",
+    "static/js/main.f16c75ac.js"
+  ]
+}
