@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import 'dotenv/config';
 
-const GOOGLE_MAPS_API_KEY = process.env.GOOGLE_MAPS_API_KEY;
+const GOOGLE_MAPS_API_KEY = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
 
 class Panorama extends Component {
   constructor(props) {
